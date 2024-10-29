@@ -1,0 +1,29 @@
+.headerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    border: white solid 1px;
+    margin: var(--spacing-xl);
+    padding: 0 var(--spacing-xl);
+    border-radius: var(--border-radius-md);
+}
+
+.headerContainer ul{
+    list-style: none;
+    display: flex;
+    gap:var(--spacing-lg);
+}
+
+.headerContainer ul li{
+    cursor: pointer;
+    font-size: var(--font-size-md);
+    transition: font-size 0.3s ease; /* Transição suave de 0.3 segundos */
+    height: 30px;
+}
+
+.headerContainer ul li:hover{
+    font-size: 10px;
+    font-size: var(--font-size-lg);
+}
+
