@@ -18,7 +18,7 @@
 .headerContainer ul li{
     cursor: pointer;
     font-size: var(--font-size-md);
-    transition: font-size 0.3s ease; /* Transição suave de 0.3 segundos */
+    transition: font-size 0.3s ease;
     height: 30px;
 }
 
