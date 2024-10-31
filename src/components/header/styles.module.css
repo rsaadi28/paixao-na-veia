@@ -4,7 +4,7 @@
   justify-content: space-between;
   border: white solid 1px;
   margin: var(--spacing-xl);
-  padding: 0 var(--spacing-xl);
+  padding: var(--spacing-sm) var(--spacing-xl);
   border-radius: var(--border-radius-md);
 }
 
@@ -81,7 +81,7 @@ header nav .hamburguer::after {
   header nav .hamburguer.active::before {
     transform: rotate(135deg);
   }
-  
+
   header nav .hamburguer.active::after {
     transform: rotate(-135deg);
     top: -7px;
@@ -96,10 +96,10 @@ header nav .hamburguer::after {
     top: 0px;
     right: -100%;
     background-color: var(--color-accent);
-    width: 40%;
+    width: 50%;
     height: 100vh;
-  transition: transform 0.3s ease, right 0.3s ease;
-  transform: translateX(100%); /* Ajuste para transição suave */
+    transition: transform 0.3s ease, right 0.3s ease;
+    transform: translateX(100%); /* Ajuste para transição suave */
   }
 
   .header nav ul.open {
